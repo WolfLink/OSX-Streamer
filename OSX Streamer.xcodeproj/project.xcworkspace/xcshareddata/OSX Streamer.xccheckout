@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AEC3DC96-DF00-4492-97E2-77CEAAF46402</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OSX Streamer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EFFF2E6A33CBD7E10C198CD5360C268395D62576</key>
+		<string>https://github.com/WolfLink/OSX-Streamer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OSX Streamer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EFFF2E6A33CBD7E10C198CD5360C268395D62576</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/WolfLink/OSX-Streamer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EFFF2E6A33CBD7E10C198CD5360C268395D62576</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EFFF2E6A33CBD7E10C198CD5360C268395D62576</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OSX%20Streamer</string>
+		</dict>
+	</array>
+</dict>
+</plist>

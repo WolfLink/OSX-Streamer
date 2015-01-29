@@ -13,9 +13,9 @@
 		6E6B06FB1A79F62400E5372F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E6B06FA1A79F62400E5372F /* Images.xcassets */; };
 		6E6B06FE1A79F62400E5372F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E6B06FC1A79F62400E5372F /* MainMenu.xib */; };
 		6E6B070A1A79F62400E5372F /* OSX_StreamerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B07091A79F62400E5372F /* OSX_StreamerTests.m */; };
-		6E6B07151A79F63C00E5372F /* Sendificator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B07141A79F63C00E5372F /* Sendificator.m */; };
 		6E6B07171A79F6CC00E5372F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6B07161A79F6CC00E5372F /* AVFoundation.framework */; };
 		6E6B07191A79F6D600E5372F /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6B07181A79F6D600E5372F /* MultipeerConnectivity.framework */; };
+		6E7AD38F1A7AFE66006BB959 /* Sendificator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7AD38E1A7AFE66006BB959 /* Sendificator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +41,10 @@
 		6E6B07031A79F62400E5372F /* OSX StreamerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OSX StreamerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E6B07081A79F62400E5372F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E6B07091A79F62400E5372F /* OSX_StreamerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSX_StreamerTests.m; sourceTree = "<group>"; };
-		6E6B07131A79F63C00E5372F /* Sendificator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sendificator.h; path = "/Users/marcdavis/Desktop/OSX Streamer/Sendificator.h"; sourceTree = "<absolute>"; };
-		6E6B07141A79F63C00E5372F /* Sendificator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sendificator.m; path = "/Users/marcdavis/Desktop/OSX Streamer/Sendificator.m"; sourceTree = "<absolute>"; };
 		6E6B07161A79F6CC00E5372F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		6E6B07181A79F6D600E5372F /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		6E7AD38D1A7AFE66006BB959 /* Sendificator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sendificator.h; sourceTree = "<group>"; };
+		6E7AD38E1A7AFE66006BB959 /* Sendificator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sendificator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +92,8 @@
 			children = (
 				6E6B06F51A79F62400E5372F /* AppDelegate.h */,
 				6E6B06F61A79F62400E5372F /* AppDelegate.m */,
-				6E6B07131A79F63C00E5372F /* Sendificator.h */,
-				6E6B07141A79F63C00E5372F /* Sendificator.m */,
+				6E7AD38D1A7AFE66006BB959 /* Sendificator.h */,
+				6E7AD38E1A7AFE66006BB959 /* Sendificator.m */,
 				6E6B06FA1A79F62400E5372F /* Images.xcassets */,
 				6E6B06FC1A79F62400E5372F /* MainMenu.xib */,
 				6E6B06F31A79F62400E5372F /* Supporting Files */,
@@ -228,10 +228,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E7AD38F1A7AFE66006BB959 /* Sendificator.m in Sources */,
 				6E6B06F91A79F62400E5372F /* main.m in Sources */,
 				6E6B06F71A79F62400E5372F /* AppDelegate.m in Sources */,
 				6E2176E41A7A01D500EF8959 /* Preferences.m in Sources */,
-				6E6B07151A79F63C00E5372F /* Sendificator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
